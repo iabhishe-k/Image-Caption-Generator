@@ -8,7 +8,7 @@ This project implements an image captioning model using a pre-trained VGG16 CNN 
 - **Dataset:** [Flickr8k](https://www.kaggle.com/datasets/adityajn105/flickr8k)
 - **Framework:** TensorFlow / Keras
 
-## 📦 Requirements
+## Requirements
 
 ```bash
 pip install tensorflow pandas numpy matplotlib tqdm
@@ -26,7 +26,7 @@ pip install tensorflow pandas numpy matplotlib tqdm
 
 3. **Train captioning model**:
    - Merge image and text features
-   - Train LSTM decoder with teacher forcing
+   - Train the LSTM decoder with teacher forcing
 
 4. **Generate captions**:
    - Load model, tokenizer, and test images
@@ -35,10 +35,10 @@ pip install tensorflow pandas numpy matplotlib tqdm
 ## Evaluation
 
 - BLEU score for evaluating generated captions.
-- Sample predictions included in the notebook.
+- Sample predictions are included in the notebook.
 
 
-## 🤝 Acknowledgements
+## Acknowledgements
 
 - TensorFlow & Keras
 - Kaggle & Flickr8k Dataset
